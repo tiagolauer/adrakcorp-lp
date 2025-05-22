@@ -54,7 +54,7 @@
               <v-card
                 v-bind="props"
                 class="mx-auto card-animate"
-                elevation="isHovering ? 18 : 8"
+                :elevation="isHovering ? 18 : 8"
                 color="grey darken-4"
                 dark
                 :style="{ transform: isHovering ? 'scale(1.04)' : 'scale(1)', transition: 'transform 0.3s' }"
